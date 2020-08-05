@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "LibraryBazaar",
+    "slug": "LibraryBazaar",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/library.png",
+    "splash": {
+      "image": "./assets/library.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.prem.librarybazaar"
+    }
+  }
+}
